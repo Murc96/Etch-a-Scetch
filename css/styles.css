@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  align-content: center;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.box {
+  border-style: dotted;
+  border-width: 1px;
+  box-sizing: border-box;
+}
