@@ -11,7 +11,7 @@ btn.addEventListener("click", () => {
       "Bitte geben Sie eine zahl zwischen 1 und 100 ein um die Grid größe zu bestimmen."
     )
   );
-  if (promptInput >= 0 && promptInput <= 100) {
+  if (promptInput >= 1 && promptInput <= 100) {
     createGrid(promptInput);
   } else {
     alert("Es wird eine Zahl zwischen 1 und 100 benötigt!");
