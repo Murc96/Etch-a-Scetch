@@ -3,6 +3,11 @@ body {
   align-content: center;
 }
 
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   width: 600px;
   height: 600px;
