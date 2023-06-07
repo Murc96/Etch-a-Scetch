@@ -19,7 +19,10 @@ After that if the user hovers over the box with the mouse the r,g and b values w
 And last but not least we have our click event for the start/reset button.
 ![image](https://github.com/Murc96/Etch-a-Scetch/assets/133204473/7d9cbc68-8aa6-48b9-9179-93ae70313a0b)
 
-it is linked to an arrow function that at first will call another function ( that deletes all the div boxes already created by the default 16x16 grid.
+it is linked to an arrow function that at first will call another function caalled removeAllChildren() that deletes all the div boxes already created by the default 16x16 grid.
+
+![image](https://github.com/Murc96/Etch-a-Scetch/assets/133204473/064c9ef9-cd6e-4625-9126-cb27d5e7a2c6)
+
 
 It does so by checking if the main div (container) has any first child objects and if so it will remove them until there is none left.
 
